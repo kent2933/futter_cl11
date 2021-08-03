@@ -1,0 +1,122 @@
+SingleChildScrollView(
+        child: Column(
+          children: [
+                  Swiper(
+                    layout: SwiperLayout.CUSTOM,
+                    itemCount: 5,
+                    customLayoutOption: CustomLayoutOption(
+                       //my custom options
+                    ),
+                    itemBuilder: (context, index) {
+                      return Stack(//images,text on top of it),
+                      },
+                      
+                  )
+                  Container(child:...//other widgets),
+                  Container(child:...//other widgets),
+                  ]
+                )
+         )  //SingleChildScrollView
+
+
+
+
+Padding(
+                      padding: const EdgeInsets.only(left: 18.0),
+                      // ignore: deprecated_member_use
+                      child: FlatButton(
+                          shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(18)),
+                          color: Colors.white,
+                          child: Padding(
+                            padding: const EdgeInsets.fromLTRB(0, 16, 0, 16),
+                            child: Row(
+                              children: [
+                                Icon(
+                                  Icons.home_outlined,
+                                  color: Colors.black,
+                                ),
+                                SizedBox(
+                                  width: 5,
+                                ),
+                                Text(
+                                  'Hotels',
+                                  style: TextStyle(
+                                    fontFamily: 'Poppins',
+                                    fontSize: 14,
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.w600,
+                                  ),
+                                  textAlign: TextAlign.left,
+                                ),
+                              ],
+                            ),
+                          ),
+                          onPressed: () {}),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(left: 18.0),
+                      // ignore: deprecated_member_use
+                      child: FlatButton(
+                          shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(18)),
+                          color: Colors.white,
+                          child: Padding(
+                            padding: const EdgeInsets.fromLTRB(0, 16, 0, 16),
+                            child: Row(
+                              children: [
+                                Icon(
+                                  Icons.flight,
+                                  color: Colors.black,
+                                ),
+                                SizedBox(
+                                  width: 5,
+                                ),
+                                Text(
+                                  'Tickets',
+                                  style: TextStyle(
+                                    fontFamily: 'Poppins',
+                                    fontSize: 14,
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.w600,
+                                  ),
+                                  textAlign: TextAlign.left,
+                                ),
+                              ],
+                            ),
+                          ),
+                          onPressed: () {}),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(left: 18.0, right: 18),
+                      // ignore: deprecated_member_use
+                      child: FlatButton(
+                          shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(18)),
+                          color: Colors.white,
+                          child: Padding(
+                            padding: const EdgeInsets.fromLTRB(0, 16, 0, 16),
+                            child: Row(
+                              children: [
+                                Icon(
+                                  Icons.home_outlined,
+                                  color: Colors.black,
+                                ),
+                                SizedBox(
+                                  width: 5,
+                                ),
+                                Text(
+                                  'Motels',
+                                  style: TextStyle(
+                                    fontFamily: 'Poppins',
+                                    fontSize: 14,
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.w600,
+                                  ),
+                                  textAlign: TextAlign.left,
+                                ),
+                              ],
+                            ),
+                          ),
+                          onPressed: () {}),
+                    ),
